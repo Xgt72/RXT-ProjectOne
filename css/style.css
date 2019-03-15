@@ -1,3 +1,4 @@
+/* css Xavier */
 body {
     background-image: url("../Images/grille_blanche.png");
     background-repeat: repeat;
@@ -105,9 +106,121 @@ header {
     z-index: 1;
 }
 
+/* css Richard */
+.img-responsive{    
+    position: relative;
+    width: 100%;    
+}
+       
+.titre2{
+    position: absolute; 
+    width: 30rem;
+    color:white;
+    font-size: 180%;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: rgba(90, 90, 90, 0.5);
+}
+.titre2 h2{
+    font-size: 5rem;  
+}
+.second h3{
+    font-size: 250%;
+}
+
+.second{           
+    font-size: 150%;             
+}
+ 
+.icones{
+    display: flex;
+    justify-content: center;
+}
+
+.tweeter {
+    margin: 1%;
+}
+
+.auteur {
+    display: flex;
+    justify-content: left;
+    margin: 0.5%;
+}
+
+/* css Thibault */
+footer{
+    background-image: url("../Images/grille_noir02.png");
+    background-repeat: repeat;
+    background-size: 2rem;
+    overflow: scroll;
+}
+
+footer h3{
+    color: white;
+    padding-bottom: 3%;
+}
+footer h5{
+    color: #A9A9A9;
+    text-decoration: underline;
+    padding-bottom: 8%;
+}
+footer div{
+    color: #A9A9A9;
+    font-size: 0.8rem;
+    padding-left:1%;
+    padding-bottom: 4%;
+}
+footer ul {
+    color:#A9A9A9;
+    padding-left:3%;
+    font-size: 0.8rem;
+    list-style: none;
+}
+footer span{
+    color: white;
+}
+footer .bandeau{
+    background-color: black;   
+}
+footer p{
+    font-size: 30px;
+    color: white;
+}
+footer #listinline{
+    color:#A9A9A9;
+    list-style: none;
+    /* border: 1px solid green; */
+}
+
+#listinline li {
+    color:#A9A9A9;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1200px) {
     header {
         top: -12.8rem;
+    }
+    .titre2 {
+        width: 40rem;
     }
 }
 
@@ -132,5 +245,9 @@ header {
 @media screen and (max-width: 575px) {
     header {
         top: -10.25rem;
+    }
+    .titre2 {
+        width: 21rem;
+        font-size: 100%;
     }
 }
