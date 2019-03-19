@@ -116,6 +116,10 @@ header {
 
 
 .legendSlide {
+    background-image: url("../Images/RXTMiniLogo.png");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    background-position: 0%, 0%;
     width: 34.8rem;
     margin: 0;
     padding: 2rem;
@@ -143,16 +147,20 @@ header {
 }
        
 .titre2{
-    position: absolute; 
+        position: absolute; 
     width: 30rem;
     color:white;
-    font-size: 180%;
+    font-size: 1.5rem;
     left: 50%;
     transform: translate(-50%,0);
     background-color: rgba(90, 90, 90, 0.5);
 }
 .titre2 h2{
-    font-size: 5rem;  
+    font-size: 4rem;  
+    background-image: url("../Images/RXTMiniLogo.png");
+    background-repeat: no-repeat;
+    background-size: 4rem;
+    background-position: 0%, 0%;
 }
 .second h3{
     font-size: 250%;
@@ -281,6 +289,9 @@ footer #listinline{
     }
     .titre2 {
         width: 21rem;
-        font-size: 100%;
+        font-size: 1rem;
+    }
+    .titre2 h2 {
+        font-size: 3rem;
     }
 }
