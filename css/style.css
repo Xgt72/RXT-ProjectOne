@@ -50,7 +50,7 @@ body {
     color: white;
     font-weight: bold;
     margin: 0;
-    border-radius: 0;
+    border-radius: 2px;
     transition: 0.4s;
 }
 
@@ -68,6 +68,22 @@ body {
 }
 .gplus {
     background: rgb(216, 61, 45);
+}
+
+.linkedin {
+    background: rgb(99, 121, 184);
+}
+
+.pinterest {
+    background: rgb(198, 4, 4);
+}
+
+.stumbl {
+    background: rgb(219, 40, 20);
+}
+
+.tumblr {
+    background: rgb(43, 66, 122);
 }
 
 #socialBox li a:hover .fab, #socialBox li a:hover .fas {
@@ -139,6 +155,104 @@ header {
     100% {bottom: 0;}
 }
 
+.infoArticle {
+    color: rgb(130, 130, 130);
+    font-size: 1rem;
+}
+
+.article h3 {
+    color: black;
+}
+.article a {
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+}
+
+.article a:hover {
+    color: orange;
+}
+
+.titleArticle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.iconeTagArticle {
+    font-size: 1.5rem;
+}
+
+#socialBox2 li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#socialBox2 li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+#socialBox2 li a:hover .fab, #socialBox2 li a:hover .fas {
+    transform: rotateY(360deg);
+    color: #333;
+}
+
+#socialBox2 li a .fab, #socialBox2 li a .fas  {
+    transition: 0.8s;
+}
+
+.imageArticle {
+    position: relative;
+}
+
+.imageArticle img {
+    width: 100%;
+}
+
+.bannerArticle {
+    background-image: url("../Images/RXTMiniLogo.png");
+    background-repeat: no-repeat;
+    background-size: 5rem;
+    background-position: 2%, 0%;
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    background-color: rgba(90, 90, 90, 0.8);
+}
+
+.textArticle {
+    font-size: 1.2rem;
+}
+
+.article h4 {
+    font-size: 1.8rem;
+}
+
+.cardArticle {
+    background-color: #A9A9A9;
+    box-shadow: 5px 5px 3px gray;
+}
 
 /* css Richard */
 .img-responsive{    
@@ -269,11 +383,19 @@ footer #listinline{
     header {
         top: -11.2rem;
     }
+    .bannerArticle {
+        background-size: 4rem;
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     header {
         top: -11.8rem;
+    }
+    .bannerArticle {
+        background-size: 4rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -287,11 +409,23 @@ footer #listinline{
     header {
         top: -10.25rem;
     }
+
     .titre2 {
         width: 21rem;
         font-size: 1rem;
     }
+
     .titre2 h2 {
         font-size: 3rem;
     }
+
+    .bannerArticle {
+        background-size: 2rem;
+        font-size: 1rem;
+    }
+
+    .iconeTagArticle {
+        font-size: 1rem;
+    }
+
 }

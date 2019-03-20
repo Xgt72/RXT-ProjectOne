@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Link to FontAwesome-->
+    <link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
+
+    <!-- my css file -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Xiamoi Mi Mix 2</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="mt-5 mt-sm-1 mx-2 mx-sm-3 mx-lg-0">
+            <div class="row d-flex justify-content-end justify-content-sm-start justify-content-lg-end align-items-center"
+                id="header-right">
+                <div class="mx-2 order-1 order-sm-2" id="externalLink">
+                    <a title="How to create a web site">Comment créer un site</a>
+                </div>
+                <form class="form_inline mx-2 order-2 order-sm-3" id="searchForm">
+                    <label class="sr-only" for="searchBox">Entrez votre recherche +</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control p-1" id="searchBox"
+                            placeholder="Entrez votre recherche +" />
+                    </div>
+                </form>
+                <ul class="row p-0 mx-2 mt-3 order-3 order-sm-1" id="socialBox">
+                    <li class="mr-1">
+                        <a class="rss btn" title="Subscribe to rss feed" href="http://rxtnews.fr/feed" role="button">
+                            <i class="fas fa-rss"></i>
+                        </a>
+                    </li>
+                    <li class="mx-1">
+                        <a class="facebook btn" title="Like us on Facebook" href="https://www.facebook.fr/rxtnewsfr"
+                            role="button">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="mx-1">
+                        <a class="twitter btn" title="Follow us on Twitter" href="http://www.twitter.fr/rxtnewsfr"
+                            role="button">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="mx-1">
+                        <a class="youtube btn" title="See us on Youtube" href="http://www.youtube.com/user/rxtnewsfr"
+                            role="button">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="ml-1">
+                        <a class="gplus btn" title="Checkout our Google Plus profile"
+                            href="https://plus.google.com/+RxtnewsFr" role="button">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mainLogo">
+                <a class="row no-gutter justify-content-center" title="RXTnews.fr" href="#">
+                    <img class="col-12 col-lg-8" src="./Images/RXT-Logo.png" alt="RXTnews" />
+                </a>
+            </div>
+            <div class="stickyNav">
+                <nav class="navbar navbar-expand-xl bg-secondary navbar-light row mt-2 p-0">
+                    <select class="navbar-toggler form-control navSelection" data-toggle="collapse"
+                        aria-controls="navbarRxt" aria-expanded="false" aria-label="Toggle navigation">
+                        <option value="#accueil" selected="selected">ACCUEIL</option>
+                        <option value="#actu">ACTUALIT&Eacute</option>
+                        <option value="#apps">APPS</option>
+                        <option value="#divers">DIVERS</option>
+                        <option value="#accueil">INNOVATION</option>
+                        <option value="#jeux">JEUX</option>
+                        <option value="#logiciel">LOGICIEL</option>
+                        <option value="#startup">STARTUP</option>
+                        <option value="#test">TEST</option>
+                        <option value="#tuto">TUTORIELS</option>
+                        <option value="#veille">VEILLE</option>
+                        <option value="#blog">BLOG</option>
+                    </select>
+                    <div class="collapse navbar-collapse p-0 flex-row justify-content-center" id="navbarRxt">
+                        <ul class=" navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#accueil">ACCUEIL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#actu">ACTUALIT&Eacute</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#apps">APPS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#divers">DIVERS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#innov">INNOVATION</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#jeux">JEUX</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#logiciel">LOGICIEL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#startup">STARTUP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#test">TEST</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tuto">TUTORIELS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#veille">VEILLE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">BLOG</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="row mx-2 mx-sm-3 mx-lg-0 justify-content-center article">
+            <div class="row my-2 w-100 justify-content-center infoArticle align-items-center">
+                <i class="fas fa-user-alt m-2 iconeTagArticle"></i>
+                <p class="m-2"><a href="#">Elodie Margot</a> le 10 mars 2019</p>
+            </div>
+            <div class="row">
+                <h2 class="titleArticle">
+                    Xiaomi Mi Mix 2 – Un smartphone chinois premium avec écran sans bords
+                </h2>
+            </div>
+            <div class="row w-100 my-2 infoArticle justify-content-center align-items-center">
+                <div class="m-2">
+                    <i class="far fa-file m-1 iconeTagArticle"></i>
+                    <a class="ml-2" href="#">Test</a>
+                </div>
+                <div class="m-1 p-0 d-sm-flex d-md-block justify-content-sm-center justify-content-md-center">
+                    <i class="fas fa-tags m-2 iconeTagArticle"></i>
+                    <p class="d-inline">
+                        Tags: <a href="#">iphonex</a>, <a href="#">mi mix 2</a>, <a href="#">phonedroid</a>, <a
+                            href="#">xiaomi</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row w-100 mt-2 infoArticle justify-content-start align-items-center">
+                <h3>Partagez l'article !</h3>
+                <ul class="row mx-2 p-0" id="socialBox2">
+                    <li class="ml-1 my-1">
+                        <a class="facebook btn btnArticle" title="Like us on Facebook"
+                            href="https://www.facebook.fr/rxtnewsfr" role="button">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <i class="far fa-comment mx-1">0</i>
+                    </li>
+                    <li class="ml-1 my-1">
+                        <a class="twitter btn" title="Follow us on Twitter" href="http://www.twitter.fr/rxtnewsfr"
+                            role="button">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <i class="far fa-comment mx-1">1</i>
+                    </li>
+                    <li class="ml-1 my-1">
+                        <a class="gplus btn" title="Checkout our Google Plus profile"
+                            href="https://plus.google.com/+RxtnewsFr" role="button">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <i class="far fa-comment mx-1">2</i>
+                    </li>
+                    <li class="ml-1 my-1">
+                        <a class="linkedin btn" title="LinkedIn" href="https:/www.linkedin.com/+RxtnewsFr"
+                            role="button">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <i class="far fa-comment mx-1">0</i>
+                    </li>
+                    <li class="ml-1 my-1">
+                        <a class="pinterest btn" title="Pinterest" href="#" role="button">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                        <i class="far fa-comment mx-1">1</i>
+                    </li>
+                    <li class="ml-1 my-1">
+                        <a class="stumbl btn" title="StumbleUpon" href="#" role="button">
+                            <i class="fab fa-stumbleupon"></i>
+                        </a>
+                        <i class="far fa-comment mx-1">1</i>
+                    </li>
+                    <li class="ml-1 my-1">
+                        <a class="tumblr btn" title="tumblr" href="#" role="button">
+                            <i class="fab fa-tumblr"></i>
+                        </a>
+                        <i class="far fa-comment mx-1">5</i>
+                    </li>
+                </ul>
+            </div>
+            <div class="row w-100 mt-2">
+                <div class="d-block w-100 d-flex justify-content-center imageArticle">
+                    <img src="./Images/XiaomiMi Mix 2.png" alt="Xiaomi Mi Mix 2">
+                    <div class="bannerArticle">
+                        <p>Xiaomi Mi Mix 2 - Un smartphone chinois premium</p>
+                    </div>
+                </div>
+            </div>
+            <p class="my-3 textArticle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac orci ex. Sed sed purus eu leo
+                tristique pharetra in eu sapien. Nulla aliquam felis nec diam auctor, vel tristique urna tincidunt.
+                Sed in est et ex tempus suscipit. Pellentesque placerat nisi at magna interdum aliquet. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Fusce ac ligula non massa interdum gravida. Cras
+                blandit iaculis ante. Phasellus finibus feugiat nisl, non porttitor mi blandit sit amet. Morbi sed
+                est ultricies, volutpat sapien et, dictum ipsum. Nam ac ante at risus finibus faucibus eget id
+                turpis. Cras non ipsum tempor, iaculis neque et, luctus dolor. Cras eget consequat purus. Phasellus
+                quis semper sem.
+            </p>
+            <div class="w-100 my-4 d-flex justify-content-start">
+                <h4>Cet écran!</h4>
+            </div>
+            <div class="row w-100 mt-2">
+                <div class="d-block w-100 d-flex justify-content-center imageArticle">
+                    <img src="./Images/XiamoiMi Mix2 02.png" alt="Xiaomi Mi Mix 2">
+                </div>
+            </div>
+            <p class="my-3 textArticle">
+                Curabitur rutrum augue semper odio fermentum dapibus. Nam pharetra turpis augue, eu imperdiet nisi
+                tempus a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec turpis
+                ex, dapibus a scelerisque a, semper at lorem. Sed commodo ac leo eu aliquet. Duis porta diam quam, vitae
+                vehicula ligula scelerisque a. Pellentesque habitant morbi tristique senectus et netus et malesuada
+                fames ac turpis egestas. Nulla consectetur tellus ac leo mattis lobortis.
+            </p>
+            <div class="w-100 my-4 d-flex justify-content-start">
+                <h4>Design au top</h4>
+            </div>
+            <div class="card p-3 cardArticle" style="width: 40rem;">
+                    <img src="./Images/XiaomiCard.jpeg" class="card-img-top" alt="Xiaomi Mi Mix 2 colors">
+                    <div class="card-body">
+                      <h5 class="card-title">-Les différents coloris </h5>
+                    </div>
+                  </div>
+        </section>
+
+
+
+        <footer class="mt-5 mx-2 mx-sm-3 mx-lg-0 p-2">
+            <!--début du footer-->
+            <h3>Lien tracké Amazon</h3>
+            <h5>Acheter sur amazon</h5>
+            <h3>Les plus commentés</h3>
+            <p>
+                <div>Lorem ipsum dolor sit amet, consectetur
+                    incdidunt ut labore et dolore magna al </div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    incdidunt ut labore et dolore magna aliqua. Ut enim ad </div>
+                <div> Lorem ipsum dolor sit amet, consectetur adipiscing
+                    incdidunt ut labore et d </div>
+                <div> Lorem ipsum dolor sit amet, consectetur adipiscing
+                    incdidunt ut labore et dolore magna aliqua. Ut enim ad</div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    incdidunt ut labore et d</div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing
+                    incdidunt ut labore et dolore magna aliqua. U</div>
+            </p>
+            <h3>Catégories</h3>
+            <ul>
+                <li>#FUN <span>(75)</span></li>
+                <li>Actualité <span>(67)</span></li>
+                <li>Apps <span>(2)</span></li>
+                <li>Blog <span>(7)</span></li>
+                <li>Buzz <span>(15)</span></li>
+                <li>Divers <span>(35)</span></li>
+                <li>Innovation <span>(67)</span></li>
+                <li>Jeux <span>(7)</span></li>
+                <li>LéoDuff <span>(2)</span>></li>
+                <li>Logiciel <span>(3)</span></li>
+            </ul>
+            <h3>Archives</h3>
+            <div class="row no-gutters">
+                <form class="col-12" method="post" action="traitement.php">
+                    <select name="pays" id="pays">
+                        <option value="mois">Sélectionner un mois</option>
+                        <option value="mois">Mars 2018</option>
+                        <option value="mois">Février 2018</option>
+                        <option value="mois">Janvier 2018</option>
+                        <option value="mois">Décembre 2017</option>
+                        <option value="mois">Novembre 2017</option>
+                        <option value="mois">Octobre 2017</option>
+                        <option value="mois">Septembre 2017</option>
+                        <option value="mois">Août 2017</option>
+                        <option value="mois">Juillet 2017</option>
+                        <option value="mois">Juin 2017</option>
+                        <option value="mois">Mai 2017</option>
+                        <option value="mois">Avril 2017</option>
+                        <option value="mois">Mars 2017</option>
+                        <option value="mois">Février 2017</option>
+                        <option value="mois">Janvier 2017</option>
+                        <option value="mois">Décembre 2016</option>
+                        <option value="mois">Novembre 2016</option>
+                    </select>
+                </form>
+            </div>
+            <!--bandeau de pied de page-->
+            <div class="bandeau">
+                <p>Copyright © 2012 - 2019. Technews.fr</p>
+                <ul class="row no-gutters m-2" id="listinline">
+                    <li class="m-2">DES SITES À VISITER</li>
+                    <li class="m-2">À PROPOS</li>
+                    <li class="m-2">CONTACT</li>
+                    <li class="m-2">PARTENARIATS</li>
+                    <li class="m-2">DEVENEZ RÉDACTEUR</li>
+                </ul>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">{ lang: 'fr' }</script>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
