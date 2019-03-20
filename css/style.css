@@ -198,7 +198,7 @@ footer{
 
 footer h3{
     color: white;
-    padding-bottom: 3%;
+    padding-bottom: 8%;
 }
 footer h5{
     color: #A9A9A9;
@@ -207,13 +207,10 @@ footer h5{
 }
 footer div{
     color: #A9A9A9;
-    font-size: 0.8rem;
-    padding-left:1%;
-    padding-bottom: 4%;
+    font-size: 1rem;
 }
 footer ul {
     color:#A9A9A9;
-    padding-left:3%;
     font-size: 0.8rem;
     list-style: none;
 }
@@ -221,21 +218,20 @@ footer span{
     color: white;
 }
 footer .bandeau{
-    background-color: black;   
+    background-color: black; 
 }
+
 footer p{
-    font-size: 30px;
+    font-size: 10px;
     color: white;
 }
 footer #listinline{
     color:#A9A9A9;
     list-style: none;
-    /* border: 1px solid green; */
 }
 
 #listinline li {
     color:#A9A9A9;
-    /* border: 1px solid red; */
 }
 
 
