@@ -348,10 +348,16 @@ h3.themeTitle {
 }
 .auteur {
     display: flex;
-    justify-content: left;
-    margin: 2%;
+    justify-content: left;    
     font-size: 0.8rem;
+    color: rgb(148, 143, 143);     
+}
+
+.test{    
     color: rgb(148, 143, 143);
+    display: flex;
+    justify-content: right;
+    font-size: 0.8rem;    
 }
 
 .para a {
