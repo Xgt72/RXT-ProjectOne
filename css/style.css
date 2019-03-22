@@ -271,6 +271,11 @@ header {
     font-size: 1.5rem;
 }
 
+h3.themeTitle {
+    color: rgb(190, 190, 190);
+    font-size: 2rem;
+}
+
 
 /* css Richard */
 .img-responsive{      
@@ -433,7 +438,7 @@ footer #listinline{
 
 @media screen and (min-width: 1200px) {
     header {
-        top: -12.8rem;
+        top: -13.2rem;
     }
     /* .titre2 {
         width: 40rem;
@@ -452,8 +457,13 @@ footer #listinline{
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     header {
-        top: -11.8rem;
+        top: -12.2rem;
     }
+
+    .titre2 h2 {
+        background-size: 5rem;
+    }
+
     .bannerArticle {
         background-size: 4rem;
         font-size: 1.5rem;
@@ -468,7 +478,7 @@ footer #listinline{
 
 @media screen and (max-width: 575px) {
     header {
-        top: -10.25rem;
+        top: -10.6rem;
     }
 
     .titre2 {
@@ -478,6 +488,7 @@ footer #listinline{
 
     .titre2 h2 {
         font-size: 3rem;
+        background-size: 3rem;
     }
 
     .bannerArticle {
