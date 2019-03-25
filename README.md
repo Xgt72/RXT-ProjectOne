@@ -2,9 +2,9 @@
 Project One Team RXT
 
 ## Team:
-Richard Leblanc
-Thibault Gagnebien
-Xavier Georget
+* Richard Leblanc
+* Thibault Gagnebien
+* Xavier Georget
 
 ## Objectif:
 This is our first project at [WildCodeSchool](https://wildcodeschool.fr/), we must copy an existing web site.
